@@ -1,0 +1,21 @@
+<form class="form-login">
+           
+        <mat-form-field class="example-form-field">
+                <mat-label>Usuario</mat-label>
+                <input matInput type="text" name="user" id="user" [(ngModel)]="value" placeholder="Usuario">
+                <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+                  <mat-icon>close</mat-icon>
+                </button>
+        </mat-form-field>
+
+        <mat-form-field class="example-form-field">
+                <mat-label>Contraseña</mat-label>
+                <input matInput type="password" name="password" id="password" [(ngModel)]="value" placeholder="Contraseña">
+                <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+                  <mat-icon>close</mat-icon>
+                </button>
+        </mat-form-field>
+
+        <button mat-stroked-button color="accent" (click)="">Acceder</button>
+    
+</form>
