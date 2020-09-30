@@ -13,7 +13,8 @@ import { User } from 'src/app/models/user.module';
 
 export class LoginComponent implements OnInit {
 
-  value = 'Clear me';
+  value = '';
+  value2 ='';
 
   constructor() { }
 

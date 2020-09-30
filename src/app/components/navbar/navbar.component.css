@@ -4,7 +4,7 @@ body{
 
   .toolbar {
     height: 15%;
-    background-color: #2c2f3b4d;
+    background-color: #2c2f3b07;
     color: black;
   }
 
@@ -32,6 +32,7 @@ body{
   a{
     text-decoration: none;
     color: rgb(69, 68, 73);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
   /* Responsive Styles */

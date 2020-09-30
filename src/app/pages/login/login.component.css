@@ -1,3 +1,13 @@
+body{
+  height: 528px;
+  background-color: rgba(235, 235, 230, 0);
+}
+
+.gn-login{
+  margin-top: 10%;
+  justify-content: center;
+}
+
 .form-login {
     min-width: 150px;
     max-width: 500px;
@@ -10,4 +20,5 @@
 
   .example-form-field {
     width: 200px;
+    margin: 2%;
   }
