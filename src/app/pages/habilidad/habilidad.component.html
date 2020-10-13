@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+ 
+    <mat-card>
+        <div class="rejilla" *ngFor="let pokemon of abilityPokemon">
+       
+            <mat-card class="example-card">
+                <img mat-card-image src="https://luceroalvarez.mx/images/pokemon.jpg" alt="Photo of a Shiba Inu">
+                <mat-card-title class="Nompok">{{ pokemon.name }}</mat-card-title>
+             </mat-card>
+         </div>
+    </mat-card>
+
+</body>
+</html>

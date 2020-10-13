@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-card {
+    max-width: 700px;
+  }
+
+.Nompok{
+  text-transform: capitalize;
+}
+
+  .rejilla{
+    flex-wrap: row nowrap;
+    display: flex;
+  }
